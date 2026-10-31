@@ -56,7 +56,7 @@ function draw() {
 class Circuit {
   constructor() {
     this.x = random(width + 200);
-    this.y = random(0, height / 2);
+    this.y = random(100, height / 2);
     this.size = random(50, 100);
     this.weight = random(2,4);
 
