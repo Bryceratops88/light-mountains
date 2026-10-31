@@ -33,7 +33,7 @@ function setup() {
 
   //shapes loop come after color creation
 
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 100; i++) {
     let circuit = new Circuit();
     circuits.push(circuit);
   }
